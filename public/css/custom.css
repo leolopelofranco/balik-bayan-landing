@@ -256,7 +256,7 @@ a:hover, a:focus {
 
 /* footer notes */
 .footer-notes {
-  padding: 150px 30% 100px;
+  padding: 150px 5% 100px;
   position: inline-block;
 }
 .footer-notes p {
@@ -369,4 +369,30 @@ a:hover, a:focus {
   padding-bottom:50px;
   color:#318CE7;
   text-shadow:3px 3px #e0e0e0;
+}
+
+.text-bg {
+  background:url(http://wellfra.me/templates/gantry/images/content/text-bg.png);
+  padding: 40px 0px 0px 0px;
+  color:#ffffff;
+  margin-bottom: 70px;
+}
+
+.contact-footer {
+  font-family: "BitterRegular"!important;
+  text-align:right;
+  padding-right:40px;
+}
+
+.contact-footer h2 {
+  font-size:40px;
+}
+
+.contact-footer span {
+  display:block;
+}
+
+@font-face {
+font-family: BitterRegular;
+src: url(http://wellfra.me/templates/gantry/fonts/Brandon_light.otf);
 }
